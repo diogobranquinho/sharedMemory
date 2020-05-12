@@ -1,0 +1,10 @@
+Compilando o codigo fonte
+
+gcc -o produtor SHMServer.c
+gcc -o consumidor SHMClient.c
+
+Agora em um terminal execute o programa produtor
+./produtor
+
+Em outro terminal execute o programa consumidor
+./consumidor
